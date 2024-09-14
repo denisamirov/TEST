@@ -3,7 +3,7 @@
   
 
 Пример запуска:
-node index.js https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202 "Санкт-Петербург и область"
+node index.js https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202 "Тверская обл."
 
 Необходимо создать JS-скрипт для Node, который с помощью библиотеки puppeteer
 выбирает регион, делает полноразмерный скриншот страницы товара на сайте
@@ -15,8 +15,7 @@ www.vprok.ru, а также получает из нее цену товара (
 регион.
 
 Например, запускаем скрипт командой:
-node index.js https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202
-"Санкт-Петербург и область"
+node index.js https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202 "Тверская обл."
 
 На выходе получаем скриншот screenshot.jpg и файл с характеристиками товара product.txt с содержимым:
 - price=89.9
@@ -36,9 +35,7 @@ https://www.vprok.ru/product/perekrestok-spmi-svinina-duhovaya-1kg--1131362
 https://www.vprok.ru/product/vinograd-kish-mish-1-kg--314623
 https://www.vprok.ru/product/eko-kultura-tomaty-cherri-konfetto-250g--946756
 https://www.vprok.ru/product/bio-perets-ramiro-1kg--476548
-https://www.vprok.ru/product/korkunov-kollektsiya-shokoladnyh-konfet-korkunov-iz-molochnogo
--shokolada-s-fundukom-karamelizirovannym-gretskim-orehom-vafley-svetloy-orehovoy--12956
-90
+https://www.vprok.ru/product/korkunov-kollektsiya-shokoladnyh-konfet-korkunov-iz-molochnogo-shokolada-s-fundukom-karamelizirovannym-gretskim-orehom-vafley-svetloy-orehovoy--1295690
 https://www.vprok.ru/product/picnic-picnic-batonchik-big-76g--311996
 https://www.vprok.ru/product/ritter-sport-rit-sport-shokol-tsel-les-oreh-mol-100g--305088
 https://www.vprok.ru/product/lays-chipsy-kartofelnye-lays-smetana-luk-140g--1197579
@@ -50,6 +47,6 @@ https://www.vprok.ru/product/lays-chipsy-kartofelnye-lays-smetana-luk-140g--1197
 1. Код нужно залить в ваш репозиторий
 2. Скриншоты и текстовый файл с собранными данными добавить в архив (свой
 архив на каждый город) и залить туда же в репозиторий
-1. Ссылку на репозиторий с результатами пришлите пожалуйста в чат на hh
+3. Ссылку на репозиторий с результатами пришлите пожалуйста в чат на hh
 Будем плюсом если в вашем репозитории будут и другие ваши проекты, у которых мы
 тоже изучим код, чтобы обширнее и детальнее познакомиться с вашими навыками
