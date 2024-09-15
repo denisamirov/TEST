@@ -1,11 +1,11 @@
 {
   "name": "cenix.pro",
-  "version": "1.0.0",
-  "description": "Необходимо создать JS-скрипт для Node, который с помощью библиотеки puppeteer\r выбирает регион, делает полноразмерный скриншот страницы товара на сайте\r www.vprok.ru, а также получает из нее цену товара (если есть зачеркнутая, то две цены),\r рейтинг товара и количество отзывов на товар.\r Скриншот надо сохранить на диск с именем screenshot.jpg.\r Цены, рейтинг и количество отзывов надо сохранить на диск в файл product.txt.\r Скрипт должен принимать два аргумента - адрес ссылки, которую надо обработать и\r регион.",
+  "version": "1.1.0",
+  "description": "parser vprok",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "example": "node index.js https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202 \"Тверская обл.\""
   },
   "keywords": [],
   "author": "denis",
